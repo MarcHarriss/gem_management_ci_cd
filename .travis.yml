@@ -8,4 +8,4 @@ script:
 deploy:
   provider: rubygems
   api_key: RUBYGEMS_APIKEY
-  gem: test_gem_1234431
+  gemspec: test_gem.gemspec
