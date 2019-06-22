@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["mharriss@gridscale.io"]
 
   spec.summary       = "test summary"
-  spec.description   = "test description"
+  spec.description   = "Updating some information"
   spec.homepage      = "https://example.com"
   spec.license       = "MIT"
 
