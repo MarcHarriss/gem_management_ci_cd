@@ -5,4 +5,6 @@ install:
 - gem install bundler
 script:
 - gem build test_gem.gemspec 
-- gem push test_gem_1234431-0.1.0.gem
+deploy:
+  provider: rubygems
+  api_key: RUBYGEMS_APIKEY
