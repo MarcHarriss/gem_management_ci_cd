@@ -2,5 +2,6 @@ language: ruby
 rvm:
 - 2.6.3
 script:
+- gem install bundler
 - test_gem.gemspec 
 - gem push test_gem_1234431-0.1.0.gem
